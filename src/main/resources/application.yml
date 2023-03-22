@@ -1,0 +1,12 @@
+server:
+  port : 8080
+
+spring:
+  cloud:
+    gcp:
+      project-id: unique-axle-376410
+
+gcp:
+  pubsub:
+    topic: jukin-royalty-epic1
+    subscription: jukin-royalty-epic1-sub
